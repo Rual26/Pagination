@@ -6,7 +6,9 @@
 
  3 : pagination + suivant,precedent
 
+
  
+Paramètres :
 
  @nbParPage : nombre d'elements par page
 
@@ -16,6 +18,7 @@
 
  @model : Modeles de pagination voir ci-dessus
 
+ 
 
 
 http://www.devandclick.fr/tutoriels/2014/pagination-automatique-avec-jquery.html
