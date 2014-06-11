@@ -1,0 +1,37 @@
+<!-- importation librairie jquery et fonction pagination -->
+<script src="jquery.js"></script>
+<script src="pagination.js"></script>
+
+<table border="1">
+	<!-- Elements à paginer -->
+	<tr>
+		<td>Element 1</td>
+	</tr>
+	<tr>
+		<td>Element 2</td>
+	</tr>
+	<tr>
+		<td>Element 3</td>
+	</tr>
+	<tr>
+		<td>Element 4</td>
+	</tr>
+	<tr>
+		<td>Element 5</td>
+	</tr>
+	<tr>
+		<td>Element 6</td>
+	</tr>
+	<tr>
+		<td>Element 7</td>
+	</tr>
+</table>
+
+<!-- div contenant la génération de la pagination -->
+<div class="paginator"></div>
+
+<script>
+$(document).ready(function() {
+	pagination(2,'table tr','.paginator',3);
+});
+</script>

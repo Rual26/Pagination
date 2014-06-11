@@ -1,0 +1,23 @@
+<!-- importation librairie jquery et fonction pagination -->
+<script src="jquery.js"></script>
+<script src="pagination.js"></script>
+
+<!-- Elements à paginer -->
+<div class="avatar">Element 1</div>
+<div class="avatar">Element 2</div>
+<div class="avatar">Element 3</div>
+<div class="avatar">Element 4</div>
+<div class="avatar">Element 5</div>
+<div class="avatar">Element 6</div>
+<div class="avatar">Element 7</div>
+<div class="avatar">Element 8</div>
+<div class="avatar">Element 9</div>
+
+<!-- div contenant la génération de la pagination -->
+<div class="paginator"></div>
+
+<script>
+$(document).ready(function() {
+	pagination(4,'.avatar','.paginator',3);
+});
+</script>
